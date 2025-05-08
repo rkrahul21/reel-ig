@@ -17,7 +17,7 @@ export default withAuth(
                     || pathname === "/register") { return true }
 
                 //public routes
-                if (pathname === "/" || pathname.startsWith("//api/videos")) {
+                if (pathname === "/" || pathname.startsWith("/api/videos")) {
                     return true
                 }
 
